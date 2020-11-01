@@ -48,6 +48,20 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_gravity="center"/>
+    <TextView
+        android:text="Last : "
+        android:id="@+id/tvlast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:text="Email : "
+        android:id="@+id/tvemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
 
 
 </LinearLayout>

@@ -1,6 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <EditText
+        android:hint="Name"
+        android:id="@+id/etname"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="100dp"
+        android:textAlignment="center"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:hint="Last Name"
+        android:id="@+id/etlast"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="-95dp"
+        android:inputType="textPersonName"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="5dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center" />
+    <Button
+        android:text="REGISTER"
+        android:id="@+id/btregister"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="10dp"
+        android:onClick="onClickButton"/>
+    <TextView
+        android:text="Name : "
+        android:id="@+id/tvname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
